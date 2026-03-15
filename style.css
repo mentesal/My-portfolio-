@@ -191,16 +191,32 @@ nav ul li a:hover{
 
 
 /* CONTACT */
-
 #contact{
   text-align:center;
 }
 
-#contact p{
-  margin:10px 0;
-  font-size:16px;
+.contact-links{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+  margin-top:20px;
 }
 
+.contact-links a{
+  text-decoration:none;
+  font-weight:bold;
+  font-size:18px;
+  color:#1e1e2f;
+  padding:10px 20px;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+.contact-links a:hover{
+  background:#ffcc00;
+  transform:translateY(-3px);
+}
 
 /* FOOTER */
 
